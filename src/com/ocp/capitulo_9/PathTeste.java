@@ -8,6 +8,7 @@ import java.nio.file.Paths;
 public class PathTeste {
 	public static void main(String[] args) {
 		try {
+			//teste
 			Path path = Paths.get("path.txt");
 			System.out.println("path: " + Files.exists(path));
 			Files.createFile(path);
