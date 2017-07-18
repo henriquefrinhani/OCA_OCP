@@ -11,7 +11,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 public class SimpleFileVisitorTeste extends SimpleFileVisitor<Path> {
 
 	public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-		if (file.getFileName().toString().endsWith(".doc"))
+		if (file.getFileName().toString().endsWith(".bmp"))
 			Files.delete(file);
 		return FileVisitResult.CONTINUE;
 	}
