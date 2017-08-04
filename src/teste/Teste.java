@@ -1,14 +1,10 @@
 package teste;
 
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
 public class Teste {
 	public static void main(String[] args) {
-		try {
-			Files.deleteIfExists(Paths.get("c:/temp/documento.doc"));
-		} catch (Exception e) {
-			System.out.println(e);
-		}
+		Integer x = -129;
+		Integer y = -129;
+		
+		if(x == y) System.out.println("x e y são iguais");
 	}
 }
